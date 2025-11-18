@@ -1,7 +1,9 @@
 # Uncertainty-Quantification-in-future-UK-heatwaves
 Python preprocessing pipeline for UK heatwave detection and Bayesian modelling (OpenBUGS & R).
 This repository contains the code developed for my dissertation **“Uncertainty Quantification in Future UK Heatwaves.”**  
-The Python scripts extract and process gridded climate datasets (HadUK-Grid & UKCORDEX), compute region-level heatwave metrics, and generate inputs for a hierarchical Bayesian model implemented in **OpenBUGS**.
+The Python scripts extract and process gridded climate datasets (HadUK-Grid & UKCORDEX) , compute region-level heatwave metrics, and generate inputs for a hierarchical Bayesian model implemented in **OpenBUGS**.
+
+(Note: HadUK-Grid provides observational historical data from the Met Office, while UKCORDEX provides climate model projections.)
 
 ## Project Review
 Understanding how extreme heat events like heatwaves will change in a warming world is important for assessing future climate risks. In this project, heatwaves are defined using the Public Health England (PHE) criteria, analysed using high-resolution UKCORDEX climate model outputs, and modelled through a Bayesian framework with MCMC sampling implemented in OpenBUGS and R. 
@@ -81,6 +83,7 @@ heatwave metrics into `data/processed/`.
 ### **1. OpenBUGS (required)**
 Download from:  
 https://www.mrc-bsu.cam.ac.uk/software/bugs-project
+
 OpenBUGS must be installed separately.
 
 ### **2. R + Required Packages**
