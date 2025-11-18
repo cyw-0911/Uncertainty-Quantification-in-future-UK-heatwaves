@@ -79,6 +79,7 @@ heatwave metrics into `data/processed/`.
 ### **1. OpenBUGS (required)**
 Download from:  
 https://www.mrc-bsu.cam.ac.uk/software/bugs-project
+
 OpenBUGS must be installed separately.
 
 ### **2. R + Required Packages**
@@ -128,4 +129,5 @@ Only derived outputs (plots, small CSV samples) are included.
 
 ## Contact
 Please open an issue for questions, suggestions, or discussion.
+
 
