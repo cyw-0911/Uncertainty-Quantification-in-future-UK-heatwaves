@@ -1,4 +1,4 @@
-# UK Heatwave Analysis Pipeline  
+# UNCERTAINTY QUANTIFICATION IN Future UK HEATWAVES
 Python preprocessing pipeline for UK heatwave detection and Bayesian modelling (OpenBUGS).
 This repository contains the code developed for my dissertation **“Uncertainty Quantification in Future UK Heatwaves.”**  
 The Python scripts extract and process gridded climate datasets (HadUK-Grid & UKCORDEX), compute region-level heatwave metrics, and generate inputs for a hierarchical Bayesian model implemented in **OpenBUGS**.
@@ -128,3 +128,4 @@ Only derived outputs (plots, small CSV samples) are included.
 
 ## Contact
 Please open an issue for questions, suggestions, or discussion.
+
